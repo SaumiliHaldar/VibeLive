@@ -1,1 +1,1 @@
-web: gunicorn VibeStream.wsgi:application --bind 0.0.0.0:$PORT
+web: gunicorn VibeStream.wsgi --log-file -
